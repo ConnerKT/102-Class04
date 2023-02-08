@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(178.1deg, rgb(60, 55, 106) 8.5%, rgb(23, 20, 69) 82.4%); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100%;
+    text-align:center;
+    padding:100px;
+    
+}
+p{
+    color:#3a4750;
+    font-size:50px;
+}
+h1 {
+    color:#d3d6db;
+    text-shadow: 0.5px 1px gray;
+    font-size:100px;
+}
+html{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height:100%;
+}
