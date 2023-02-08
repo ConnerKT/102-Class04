@@ -5,16 +5,25 @@ body {
     height:100%;
     text-align:center;
     padding:100px;
-    
-}
+    }  
+.name{
+    color:#303841;
+    text-size: 110px;
+} 
 p{
-    color:#3a4750;
+    color:#be3144;
     font-size:50px;
+    text-shadow:2px 1px #303841;
 }
 h1 {
     color:#d3d6db;
     text-shadow: 0.5px 1px gray;
     font-size:100px;
+}
+h2{
+    color:#be3144;
+    font-size:50px;
+    text-shadow:2px 1px #303841;
 }
 html{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
