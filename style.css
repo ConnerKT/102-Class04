@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(178.1deg, rgb(60, 55, 106) 8.5%, rgb(23, 20, 69) 82.4%); 
+    background: #1a1a1a;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height:100%;
@@ -7,13 +7,34 @@ body {
     padding:100px;
     }  
 .name{
-    color:#303841;
+    color:#fdfdfd;
     text-size: 110px;
 } 
-p{
+.name span {
     color:#be3144;
+}
+p{
+    color:#ffffff;
     font-size:50px;
     text-shadow:2px 1px #303841;
+}
+.selfie {
+    border-radius: 10%;
+    height:400px;
+    float:left;
+}
+.Linkedin {
+    height: 120px;
+}
+.GitHub {
+    height: 120px;
+    
+}
+.Github.hover {
+    color:#be3144
+}
+.Linkedin:hover {
+    color:#be3144;
 }
 h1 {
     color:#d3d6db;
@@ -21,7 +42,7 @@ h1 {
     font-size:100px;
 }
 h2{
-    color:#be3144;
+    color:#fcf9f9;
     font-size:50px;
     text-shadow:2px 1px #303841;
 }
