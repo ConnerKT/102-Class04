@@ -4,14 +4,55 @@ body {
     background-attachment: fixed;
     height:100%;
     text-align:center;
-    padding:100px;
+    margin: 0;
+    padding: 0;
     }  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#303841;
+    overflow:hidden;
+    
+    top:0;
+}
+.navbar {
+    position: sticky;
+    position: -moz-sticky;
+    position: -webkit-sticky;
+    margin:0;
+    padding:0;
+    top:0;
+    z-index: 9999999999999;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.3)
+}
+li {
+    display:inline;
+    float:right;
+}
+li a {
+    display:block;
+    padding:10px;
+    margin: 10px;
+    color:#d3d6db;
+    text-align:center;
+    text-decoration:none;
+
+}
+li a:hover {
+    background-color:#be3144;
+}
+
 .name{
     color:#fdfdfd;
     text-size: 110px;
+    padding-bottom:30%;
+    padding-top:15%;
+    align-self:center;
 } 
 .name span {
     color:#be3144;
+    text-shadow:#942635 1px 5px;
 }
 p{
     color:#ffffff;
@@ -25,16 +66,20 @@ p{
 }
 .Linkedin {
     height: 120px;
+    color:#1a1a1a;
+    border-radius: 20%;
+    
 }
 .GitHub {
     height: 120px;
-    
+    color:#1a1a1a;
+    border-radius: 20%
 }
-.Github.hover {
-    color:#be3144
+.GitHub:hover {
+    background-color:#be3144;
 }
 .Linkedin:hover {
-    color:#be3144;
+    background-color:#be3144;
 }
 h1 {
     color:#d3d6db;
