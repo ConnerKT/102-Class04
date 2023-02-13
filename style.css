@@ -7,32 +7,50 @@ body {
     padding: 0;
 
     } 
+.container{
+    width:100%
+    overflow:visible;
+}
 .circle{
     position: relative;
     display: flex;
-    height:100vh;
-    width:100vh;
+    width:100vw;
+    
 }
 
-.circle span{
+.circle span:nth-child(1){
+    z-index: -1000;
     position: relative;
     width:20px;
     height:20px;
     background-color:#be3144;
     margin: 0 20px;
     border-radius:50%;
+    overflow:hidden;
     animation: animate 10s linear infinite;
 }
-@keyframes animate{
-    100% {
-        transform: translateY(100vh) scale(0);
-        
-    } 0% {
-        transform: translateY(-10vh) scale(1);
-        
+@keyframes animate {
+    0% {transform: translatex(-10vh) translatey(-10vh)
     }
-    
-
+    100% {transform: translatex(200vh) translatey(500vh)
+    }
+}
+.circle span:nth-child(2){
+  z-index: -1000;
+    position: relative;
+    width:15px;
+    height:15px;
+    background-color:#be3144;
+    margin: 0 20px;
+    border-radius:50%;
+    overflow:hidden;
+    animation: animate2 20s linear infinite;
+}
+@keyframes animate2 {
+    0%{transform: translatex(-10vh) translatey(-10vh)
+    }
+    100% {transform: translatex(300vh) translatey(500vh)
+    }
 }
 ul {
     list-style-type: none;
