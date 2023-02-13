@@ -5,7 +5,35 @@ body {
     text-align:center;
     margin: 0;
     padding: 0;
-    }  
+
+    } 
+.circle{
+    position: relative;
+    display: flex;
+    height:100vh;
+    width:100vh;
+}
+
+.circle span{
+    position: relative;
+    width:20px;
+    height:20px;
+    background-color:#be3144;
+    margin: 0 20px;
+    border-radius:50%;
+    animation: animate 10s linear infinite;
+}
+@keyframes animate{
+    100% {
+        transform: translateY(100vh) scale(0);
+        
+    } 0% {
+        transform: translateY(-10vh) scale(1);
+        
+    }
+    
+
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -41,13 +69,13 @@ li a {
 li a:hover {
     background-color:#be3144;
     box-shadow: 0 4px 4px #942635;
-    border-radius: 15px;
-    
+    border-radius: 15px;  
 }
 
 .name{
     color:#fdfdfd;
-    text-size: 110px;
+    text-size:110px;
+    text-shadow: #9a9a9a 1px 5px;
     padding-bottom:30%;
     padding-top:15%;
     align-self:center;
