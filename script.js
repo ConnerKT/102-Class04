@@ -20,6 +20,22 @@ function buttonclick(){
 }
 buttonclicks++
 }
+function rating(){
+    var stars = prompt("How many stars would you rate this site? (1-5): ")
+    var imgDiv = document.getElementById("stars-container");
+    if (stars > 5|| stars < 1|| isNaN(stars)){
+        alert("ERROR:Choose from 1-5")}
+    
+    while (stars > 0){
+    let img = document.createElement('img');
+    img.src = "https://www.freepnglogos.com/uploads/star-png/star-icon-small-flat-iconset-paomedia-0.png";
+    imgDiv.appendChild(img);
+    stars--;
+    
+    }
+
+
+}
 
 
 var username;
