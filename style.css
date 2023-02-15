@@ -6,7 +6,18 @@ body {
     margin: 0;
     padding: 0;
     overflow:visible;
-    } 
+    }
+.button{
+    border: none;
+    font-size:12px;
+    border-radius:5px;
+    margin:5 5;
+
+}
+.button:hover {
+    background-color: #0099da;
+    cursor:pointer;
+}
 .container{
     width:100%
     overflow:hidden;
