@@ -5,20 +5,18 @@ body {
     text-align:center;
     margin: 0;
     padding: 0;
-
+    overflow:visible;
     } 
 .container{
     width:100%
-    overflow:visible;
+    overflow:hidden;
 }
 .circle{
     position: relative;
     display: flex;
-    width:100vw;
-    
 }
 
-.circle span:nth-child(1){
+. circle span:nth-child(1){
     z-index: -1000;
     position: relative;
     width:20px;
@@ -35,7 +33,7 @@ body {
     100% {transform: translatex(200vh) translatey(500vh)
     }
 }
-.circle span:nth-child(2){
+. circle span:nth-child(2){
   z-index: -1000;
     position: relative;
     width:15px;
